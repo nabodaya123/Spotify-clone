@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Spotify - Web Player: Music for everyone</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+ 
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+ 
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="assets/library_icon.png">
+                        <a href="#"> Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your playlist</p>
+                        <p class="box-p2">It's easy,we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you update on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="assets/backward_icon.png">
+                    <img src="assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-option">
+                    <button class="badge nav-items hide">Explore Primium</button>
+                    <button class="badge nav-items dark-badge"><i class="fa-regular fa-circle-down"
+                            style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-solid fa-user nav-items"></i>
+                </div>
+            </div>
+ 
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card1img.jpeg">
+                    <p class="card-title">Top 50 -Global</p>
+                    <p class="card-info">Your daily update of the most played tracks</p>
+                </div>
+            </div>
+ 
+            <h2>Trending now over India</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card2img.jpeg">
+                    <p class="card-title">Every Track you are lisiting</p>
+                    <p class="card-info">Your daily update of the most played tracks ..</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card3img.jpeg">
+                    <p class="card-title">Tranding valentine's Hits</p>
+                    <p class="card-info">India's unlimitate love playlist Cover-...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card4img.jpeg">
+                    <p class="card-title">Bollywode Dance Muscic</p>
+                    <p class="card-info">Party-ready,the Bighest Bollywod dance track ...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card6img.jpeg">
+                    <p class="card-title">Hindi LoFiVibe</p>
+                    <p class="card-info">Various Artists</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card1img.jpeg">
+                    <p class="card-title">Top 50 -Motivational</p>
+                    <p class="card-info">Your daily motivation of the most played tracks ...</p>
+                </div>
+            </div>
+ 
+            <h2>Your top mixes</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card5img.jpeg">
+                    <p class="card-title">Arijit Singh mix</p>
+                    <p class="card-info">Jasleen Royal,B praak and Kaushik Guddu...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card6img.jpeg">
+                    <p class="card-title">Rock Mix</p>
+                    <p class="card-info">Duman, mo ve and more ...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card5img.jpeg">
+                    <p class="card-title">2020s mix</p>
+                    <p class="card-info">Drshan Raval,Jettu Sharma,Coco Jones more ...</p>
+                </div>
+            </div>
+ 
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+ 
+        <div class="music-player">
+            <div class="album">
+                <div class="album-play">
+                    <img src="assets/album_picture.jpeg" class="album-pic">
+                    <div class="album-control">
+                        <p class="head">Ya Ali-From "Gangstar"</p>
+                        <p class="sub-head">pritam,Zubeen Garg</p>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="player">
+                <div class="players-controls">
+                    <img src="assets/player_icon1.png" class="player-controls-icons">
+                    <img src="assets/player_icon2.png" class="player-controls-icons">
+                    <img src="assets/player_icon3.png" class="player-controls-icons" style="opacity: 1;height: 2rem;">
+                    <img src="assets/player_icon4.png" class="player-controls-icons">
+                    <img src="assets/player_icon5.png" class="player-controls-icons">
+                </div>
+                <div class="playback-bar">
+                    <span class="cur-tim">00:00</span>
+                    <input type="range" min="0" max="100" class="prograss-bar" step="1">
+                    <span class="tot-tim">3:33</span>
+                </div>
+            </div>
+ 
+            <div class="controls">
+                <i class="fa-solid fa-microphone-lines control-btn"></i>
+                <i class="fa-solid fa-bars-staggered control-btn"></i>
+                <i class="fa-solid fa-volume-high control-btn"></i>
+                <input type="range" min="0" max="100" value="60" class="volume-bar">
+                <i class="fa-regular fa-window-restore control-btn"></i>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const vol = document.querySelector('.volume-bar');
+        const paintVolume = () => {
+            vol.style.background =
+                `linear-gradient(to right, #1bd760 ${vol.value}%, #b3b3b3 ${vol.value}%)`;
+        };
+        vol.addEventListener('input', paintVolume);
+        paintVolume();
+    </script>
+</body>
+ 
+</html>
